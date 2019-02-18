@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cursosdedesarrollo.videorecordplayerandroid.MainActivity">
+    <item
+        android:id="@+id/action_record_video"
+        android:orderInCategory="100"
+        android:title="@string/record_video"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_play_video"
+        android:orderInCategory="100"
+        android:title="@string/play_video"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_take_photo"
+        android:orderInCategory="100"
+        android:title="@string/take_photo"
+        app:showAsAction="never" />
+</menu>
